@@ -10,6 +10,8 @@ This project analyzes weekly sales data from 45 Walmart stores between February 
 
 ---
 
+![9 Figures](figures/9_figures.png)
+
 ## Executive Summary
 Overall, total sales across stores reached $6.74B between 2010 - 2012 with December exceeding $54M.  
 
@@ -49,26 +51,28 @@ Stores were segmented into Low, Medium, and High categories using the 33rd and 6
 
 ## Core Analysis
 
+![3 Year Trend](figures/3_year_trend.png)
+
 ### Total Weekly Sales Trend (2010–2012)
 The overall weekly sales for all 45 Walmart stores fluctuated between approximately $42M and $56M over the three-year period. Clear recurring spikes occurred each December during the holiday shopping season, with weekly sales exceeding $54M, followed by sharp declines in early January. Sales otherwise remained within a relatively stable range. Lows were witnessed in October 2010 and January 2011 falling below $44M, and higher sales observed in April and July 2012, both exceeding $50M.  
 
-![Weekly Sales Trend](figures/3_year_trend.png)
-
 ---
+
+![Standard Deviation](figures/standard_deviation.png)
 
 ### Sales Variability by Store (Standard Deviation)
 Sales standard deviation (STD) varies significantly across stores. Store 14 exhibits the highest standard deviation (above $310K), followed closely by Stores 10 and 20. High variability stores can indicate susceptibility to seasonal swings, promotional impacts, or external factors. Conversely, Stores 37, 30, and 33 show minimal fluctuations, suggesting stable but potentially less dynamic sales environments.  
 
-![Sales STD by Store](figures/standard_deviation.png)
-
 ---
+
+![CV](figures/CV.png)
 
 ### Sales Stability: Coefficient of Variation (CV)
 Most stores’ CV values indicate relative stability around 10-15%, though differences exist between the highest and lowest performers. Store 35 stands out with the highest CV (~23%), representing highly volatile sales relative to its average. On the opposite end, Stores 37, 30, and 44 have low CV values under 6%, suggesting predictable sales patterns and possible use for pilot locations.  
 
-![CV by Store](figures/CV.png)
-
 ---
+
+![Sales CV Matrix](figures/sales_cv_matrix.png)
 
 ### Store Performance Matrix: Mean Weekly Sales vs. Sales Variability
 This matrix scatters stores based on their mean weekly sales and coefficient of variation (CV), divided into 9 quadrants using 33rd and 66th percentile for both metrics.  
@@ -82,18 +86,6 @@ This matrix scatters stores based on their mean weekly sales and coefficient of 
 - **Top Left, High CV & Low Sales:** 7, 15, 16, 29, 36  
 - **Top Middle, High CV & Medium Sales:** 18, 21, 22, 25, 35, 45  
 - **Top Right, High CV & High Sales:** 10, 14, 23, 39  
-
-![Sales vs CV Matrix](figures/sales_cv_matrix.png)
-
----
-
-### Mean Weekly Sales
-![Mean Weekly Sales](figures/mean_weekly_sales.png)
-
----
-
-### 9-Category Overview
-![9 Segment Categories](figures/9_figures.png)
 
 ---
 
