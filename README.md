@@ -10,8 +10,6 @@ This project analyzes weekly sales data from 45 Walmart stores between February 
 
 ---
 
-![9 Figures](figures/9_figures.png)
-
 ## Executive Summary
 Overall, total sales across stores reached $6.74B between 2010 - 2012 with December exceeding $54M.  
 
@@ -20,6 +18,9 @@ Stores 1 and 31 ranked as top performers, each generating weekly mean sales of a
 However, stores 7, 15, 16, 29, 36, 18, 21, 22, 25, 35, and 45, with weekly mean sales ranging from $374K to $1.08M and CVs between 15.7% and 23%, demonstrated high volatility despite moderate to high sales levels. This indicates a need for operational stabilization and improved planning to smooth the variability.  
 
 In contrast, mid-tier but stable stores including 8, 12, 17, 26, 28, 32, 34, 40, and 41, with weekly mean sales between $894K and $1.32M and CVs of 10.8–13.8%, showed strong potential and can be targeted for marketing initiatives and product expansion to drive growth.  
+
+
+![9 Figures](figures/9_figures.png)
 
 ---
 
